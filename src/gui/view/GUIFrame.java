@@ -19,9 +19,14 @@ public class GUIFrame extends JFrame
 	
 	private void setupFrame()
 	{
-		this.setTitle("Title Here");
+		this.setTitle("Not Virus");
 		this.setContentPane(basePanel);
 		this.setSize(500, 500);
 		this.setVisible(true);
+	}
+	
+	public GUIController getBaseController()
+	{
+		return baseController;
 	}
 }
